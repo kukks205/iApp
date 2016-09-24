@@ -1,4 +1,8 @@
-angular.module('iApp', ['ionic', 'starter.controllers'])
+angular.module('iApp', [
+  'ionic',
+   'starter.controllers',
+   'ngCordova'
+   ])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
